@@ -1,0 +1,52 @@
+You can view the 'visible' ascii code here:
+ASCII Code:
+https://ee.hawaii.edu/~tep/EE160/Book/chap4/subsection2.1.1.1.html
+
+All characters are 'visible' except 'space' and 'del'
+
+//Encrypt
+var a = ['c','a','t'];
+
+for(var i=0; i<a.length; i++){
+  a[i] = a[i].charCodeAt(0);
+  a[i] = a[i]-32; 
+  a[i] = 126-a[i];
+  //a[i] = String.fromCharCode(a[i]);
+  //a[i] = a[i].charCodeAt(0);
+}
+
+console.log(a);
+
+
+//Decrypt
+for(var i=0; i<a.length; i++){
+  a[i] = 126 - a[i];       
+  a[i] = a[i] + 32;	   
+  a[i] = String.fromCharCode(a[i]);
+}
+
+console.log(a);
+
+-------------------------------------------------------
+//Decrypt
+Open Google Chrome Developer Tools console, then open Coding Level 2
+and paste this in and press enter before 5 secs is up:
+
+var str = '';
+var a = document.getElementsByTagName('textarea')[0].innerHTML.split(',');
+for(var i=0; i<a.length; i++){
+  if(a[i]==' '){
+    a[i] = 32;
+  } else {
+     a[i] = 126 - a[i];               
+     a[i] = a[i] + 32;	              
+  }
+   a[i] = String.fromCharCode(a[i]);
+   str += a[i];
+}
+document.getElementsByName('output')[0].innerHTML=str;
+document.getElementsByTagName('form')[1].submit();
+
+
+
+

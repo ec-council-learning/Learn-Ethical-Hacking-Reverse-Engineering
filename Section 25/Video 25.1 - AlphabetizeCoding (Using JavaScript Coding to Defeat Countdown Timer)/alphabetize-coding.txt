@@ -1,0 +1,10 @@
+
+Open Google Chrome Developer Tools console
+and paste this in and press enter before 5 secs is up:
+
+list = document.getElementsByTagName("textarea")[0].innerHTML;
+list = list.split(', ');
+list = list.sort();
+list = list.join(', ');
+document.getElementsByName('answer')[0].innerHTML = list;
+document.getElementsByTagName('form')[1].submit();

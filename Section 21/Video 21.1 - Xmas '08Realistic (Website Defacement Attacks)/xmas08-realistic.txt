@@ -1,0 +1,11 @@
+mod.php?submit
+
+
+<form action="process.php" >
+   <input type="text" name="name">
+   
+
+</form>
+
+
+' or 1=1 --

@@ -1,0 +1,17 @@
+[ Topics covered in this lesson ]
+
+Reversing Jumps
+
+   1. Setting/Removing (BP)
+   2. F9 to run to BP
+   3. Arguments for calls
+   4. Reversing jumps
+   5. Reversing ZF (Zero Flag)
+
+Useful Commands:
+
+   F9       : Run
+   F8       : Step Over
+   F7 	    : Step Into a Call
+   Ctrl F9  : Execute till Return
+   Alt  F9  : Run to User Code

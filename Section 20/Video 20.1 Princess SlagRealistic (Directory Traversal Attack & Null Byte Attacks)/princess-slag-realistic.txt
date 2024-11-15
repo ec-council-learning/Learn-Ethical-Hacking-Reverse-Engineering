@@ -1,0 +1,6 @@
+' or 1=1 --
+
+https://www.owasp.org/index.php/Embedding_Null_Code
+
+?p=admin.php%00
+?p=../admin.php%00

@@ -1,0 +1,12 @@
+1. create a set of 12 key images
+2. download and split the captcha into 15 images
+3. compare each of the 15 images against the 12 key images
+4. for every match, decode the image to its corresponding
+   character string
+5. paste the decoded string in the Answer field and submit
+
+Tools:
+1. imagemagick
+2. python
+3. node.js
+4. AutoIt

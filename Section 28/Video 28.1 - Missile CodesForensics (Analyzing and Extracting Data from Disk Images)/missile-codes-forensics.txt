@@ -1,0 +1,15 @@
+
+Download photorec
+https://www.cgsecurity.org/Download_and_donate.php/testdisk-7.2-WIP.win64.zip
+
+Download cRARk
+http://www.crark.net/#download
+
+Decode DTMF:
+http://dialabc.com/sound/detect/
+
+Decoded DTMF:
+AA6B-A4A8-3C67-DDC7
+
+Check file format here:
+f0020034.txt

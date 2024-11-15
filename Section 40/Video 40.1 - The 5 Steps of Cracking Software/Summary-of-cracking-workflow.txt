@@ -1,0 +1,20 @@
+[ Topics covered in this lesson ]
+
+Summary of cracking software workflow:
+
+   1. Run the program to observe its behaviour
+   2. Load the program in DIE to analyze the PE
+   3. Load the program in x64dbg and reverse the jumps in order
+      to avoid showing the "bad message" and instead to show the
+      "good message"
+   4. Search for a proper instruction to patch, and assemble
+      a new instruction to replace the old instruction.
+   5. Patch the file, load the new patch and test
+
+Useful Commands:
+
+   F9       : Run
+   F8       : Step Over
+   F7 	    : Step Into a Call
+   Ctrl F9  : Execute till Return
+   Alt  F9  : Run to User Code

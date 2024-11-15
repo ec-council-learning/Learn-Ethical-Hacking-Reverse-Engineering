@@ -1,0 +1,7 @@
+Download node.js:
+
+  https://nodejs.org/en/
+
+Download Visual Studio Code:
+
+  https://code.visualstudio.com/download

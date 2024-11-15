@@ -1,0 +1,17 @@
+
+var correct = '552c25aacc';
+
+if(document.getElementById('password').value==correct){
+
+} else {
+  alert('Incorrect password')
+}
+
+
+
+<form ... >
+   <input type='text'>
+   <input type='password' id='password'>
+   <input type='submit'>
+
+</form>

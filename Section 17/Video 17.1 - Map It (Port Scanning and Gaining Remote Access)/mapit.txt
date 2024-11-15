@@ -1,0 +1,2 @@
+https://nmap.org/download.html
+https://www.putty.org/

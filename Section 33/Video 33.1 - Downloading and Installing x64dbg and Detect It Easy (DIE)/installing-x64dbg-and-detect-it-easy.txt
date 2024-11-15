@@ -1,0 +1,5 @@
+[Download x64dbg]
+x64dbg.com
+
+[Download Detect It Easy (DIE)]
+ntinfo.biz

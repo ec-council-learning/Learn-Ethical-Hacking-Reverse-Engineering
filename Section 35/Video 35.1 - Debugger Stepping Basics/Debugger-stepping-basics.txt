@@ -1,0 +1,24 @@
+[ Topics covered in this lesson ]
+1. GUI and CLI programs
+
+2. Setting Preferences
+
+[ Disassembly view ]
+3. First column graph 
+4. Second column Memory Addresses
+5. Third column OPCODES
+6. Fourth column Assembly
+7. Fifth column strings/comments
+
+
+8. What is Entry Point
+9.  F9 Run
+10. F8  Step Over
+11. calls, conditional jumps, unconditional jumps 
+12. EIP register
+13. Restart
+
+
+
+Set Break Point
+Search for Strings

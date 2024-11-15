@@ -1,0 +1,14 @@
+[ Topics covered in this lesson ]
+
+BreakPoints
+
+   1. Setting/Removing (BP)
+   2. F9 to run to BP
+   
+Useful Commands:
+
+   F9       : Run
+   F8       : Step Over
+   F7 	    : Step Into a Call
+   Ctrl F9  : Execute till Return
+   Alt  F9  : Run to User Code
